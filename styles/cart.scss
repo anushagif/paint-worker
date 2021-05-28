@@ -1,0 +1,81 @@
+.cart {
+  .TopBar {
+    button {
+      margin: 0px 10px;
+      font-size: 15px;
+      font-family: arial;
+      font-weight: 600;
+      padding: 5px 15px;
+      border: solid 2px;
+      background: white;
+      border-radius: 15px;
+    }
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    box-shadow: 0px 5px 8px -5px black;
+    padding: 8px 0;
+    z-index: 1;
+  }
+  .content {
+    margin-top: 60px;
+    display: flex;
+    & > div {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      place-content: center;
+      gap: 20px;
+      ._prod {
+        width: 200px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        ._title {
+          position: absolute;
+          top: 140px;
+          font-size: 18px;
+          font-weight: 900;
+          padding: 10px;
+          color: white;
+          text-shadow: 0px 0 2px black;
+          background: rgba(3, 61, 116, 0.411);
+        }
+        .img {
+          width: 200px;
+          height: 200px;
+          border-radius: 15px;
+          background-position: center;
+          background-size: cover;
+        }
+        button {
+          background: rgb(0, 101, 148);
+          padding: 5px 8px;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          width: max-content;
+          margin-top: 10px;
+          cursor: pointer;
+          transition: 0.8s;
+
+          &:hover {
+            transition: 0.8s;
+            background: rgb(1, 13, 19);
+          }
+        }
+        ._price {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          background: white;
+          box-shadow: 0 0 8px -5px;
+          padding: 5px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
