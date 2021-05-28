@@ -1,0 +1,38 @@
+._c {
+  background: linear-gradient(to right, rgba(47, 2, 2, 0.946), #f06b063f), url("https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1275&q=80");
+  background-position: center;
+  border-bottom: 8px #ffa600 solid;
+}
+._c .Head {
+  padding: 50px;
+  color: white;
+}
+._c ._red {
+  background: #770202;
+  color: white;
+}
+._c ._shop {
+  margin-bottom: 80px;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.822);
+  backdrop-filter: blur(3px);
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+._c ._shop .card {
+  position: relative;
+  flex-shrink: 0;
+}
+._c ._shop .card .Price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #034203;
+  color: white;
+}
+._c ._shop .card img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=Home.css.map */
